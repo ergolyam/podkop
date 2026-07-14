@@ -39,8 +39,7 @@ const SortableTypedSection = form.TypedSection.extend({
           E(
             "button",
             {
-              class: "cbi-button cbi-button-neutral",
-              style: "border-color: currentColor",
+              class: "btn pdk-partial-button",
               title,
               click: ui.createHandlerFn(
                 this,
