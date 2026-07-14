@@ -59,14 +59,14 @@ const SortableTypedSection = form.TypedSection.extend({
 
       addMoveButton(
         _("Move up"),
-        "↑",
+        "🡅",
         sectionIds[index - 1],
         false,
         index === 0,
       );
       addMoveButton(
         _("Move down"),
-        "↓",
+        "🡇",
         sectionIds[index + 1],
         true,
         index === sectionIds.length - 1,
